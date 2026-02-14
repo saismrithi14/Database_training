@@ -1,0 +1,39 @@
+Department Table:
++---------------+----------------------+
+| department_id | department_name      |
++---------------+----------------------+
+| 1             | Computer Science     |
+| 2             | Mechanical Engineering |
+| 3             | Electrical Engineering |
+| 4             | Civil Engineering    |
+| 5             | Mathematics          |
+| 6             | Biology              |
++---------------+----------------------+
+
+Address Table:
++------------+----------------+-----------+-------+-------------+
+| address_id | street_address | city      | state | postal_code |
++------------+----------------+-----------+-------+-------------+
+| 1          | 123 Elm St     | Springfield | IL  | 62701       |
+| 2          | 456 Oak St     | Decatur   | IL    | 62521       |
+| 3          | 789 Pine St    | Champaign | IL    | 61820       |
+| 4          | 102 Birch Rd   | Peoria    | IL    | 61602       |
+| 5          | 205 Cedar Ave  | Chicago   | IL    | 60601       |
+| 6          | 310 Maple Dr   | Urbana    | IL    | 61801       |
+| 7          | 415 Oak Blvd   | Champaign | IL    | 61821       |
+| 8          | 520 Pine Rd    | Carbondale| IL    | 62901       |
++------------+----------------+-----------+-------+-------------+
+
+Student Table:
++------------+------------+-----------+------------+---------------+------------+
+| student_id | first_name | last_name | birthdate  | department_id | address_id |
++------------+------------+-----------+------------+---------------+------------+
+| 1          | John       | Doe       | 1995-04-15 | 1             | 1          |
+| 2          | Jane       | Smith     | 1996-07-22 | 2             | 2          |
+| 3          | Alice      | Johnson   | 1994-11-30 | 3             | 3          |
+| 4          | Michael    | Brown     | 1997-02-19 | 4             | 4          |
+| 5          | Sophia     | Davis     | 1998-01-05 | 5             | 5          |
+| 6          | Daniel     | Wilson    | 1995-06-10 | 6             | 6          |
+| 7          | Olivia     | Martinez  | 1997-11-25 | 1             | 7          |
+| 8          | Ethan      | Miller    | 1996-03-30 | 2             | 8          |
++------------+------------+-----------+------------+---------------+------------+
